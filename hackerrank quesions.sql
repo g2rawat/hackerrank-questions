@@ -70,4 +70,4 @@ select if(g.grade>7,s.name,null), g.grade, s.marks
 from students s
 inner join grades g
 on s.marks >= g.min_mark and s.marks <= g.max_mark
-ORDER BY g.grade DESC, Name ASC, s.marks ASC
+ORDER BY g.grade DESC, Name ASC, s.marks ASC;
